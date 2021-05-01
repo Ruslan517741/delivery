@@ -1,0 +1,35 @@
+.works {
+    min-height: 550px;
+    &__descr {
+        width: 880px;
+        height: 45px;
+        margin: 0 auto;
+        font-size: 21px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #2e2e2e;
+        text-align: center;
+    }
+    &__wrapper {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(3, 360px);
+        column-gap: 30px;
+    }
+    &__item {
+        &-subtitle {
+            margin: 25px 0 7px 0;
+        }
+        &-img {
+            width: 360px;
+            height: 210px;
+        }
+        &-text {
+/*             margin-top: 27px; */
+            text-align: center;
+            font-size: 14px;
+            font-weight: 300;
+            color: #3a3a3a;
+        }
+    }
+}

@@ -5,7 +5,7 @@
 @import 'base/mixins';
 
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', 'Roboto Condensed', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -16,6 +16,38 @@
     /* padding-left: 15px; */
 }
 
+.title {
+    padding-top: 50px;
+    font-size: 26px;
+    line-height: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2e2e2e;
+    text-align: center;
+}
 
-@import 'blocks/sidepanel';
+.subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: $main-color;
+    &_fz18 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+.divider {
+    margin: 20px auto;
+    width: 148px;
+    height: 1px;
+    background-color: $main-color;
+}
+
+
 @import 'blocks/pageup';
+@import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/works';
+@import 'blocks/agent';
