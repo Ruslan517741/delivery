@@ -8,4 +8,11 @@
     text-transform: uppercase;
     color: #ffffff;
     cursor: pointer;
+    &_big {
+        font-size: 15px;
+        line-height: 17px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
 }

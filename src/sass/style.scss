@@ -37,6 +37,17 @@
     }
 }
 
+.description {
+    width: 880px;
+    height: 45px;
+    margin: 0 auto;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #2e2e2e;
+    text-align: center;
+}
+
 .divider {
     margin: 20px auto;
     width: 148px;
@@ -51,3 +62,5 @@
 @import 'blocks/advantages';
 @import 'blocks/works';
 @import 'blocks/agent';
+@import 'blocks/price';
+@import 'blocks/consultation';
