@@ -1,5 +1,5 @@
 .consultation {
-    padding-bottom: 60px;
+    padding-bottom: 70px;
     &__title {
         font-size: 28px;
         line-height: 23px;
@@ -7,4 +7,55 @@
         color: #3a3a3a;
         text-align: center;
     }
+    &__form {
+        margin-top: 75px;
+        position: relative;
+        height: 166px;
+        border: 1px solid #b4b4b4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        input {
+            padding-left: 28px;
+            margin-top: 15px;
+            border: 1px solid #dbdada;
+            border-radius: 35px;
+            height: 45px;
+            width: 270px;
+            font-size: 12px;
+            font-weight: 300;
+            color: #2e2e2e;
+        }
+        &-circle {
+            position: absolute;
+            padding: 0 10px;
+            background-color: #fff;
+            top: -50px;
+        }
+        &-icon {
+            width: 102px;
+            height: 102px;
+            border: 1px solid $main-color;
+            border-radius: 100%;
+            padding: 20px;
+
+        }
+    }
+    &__btn-wrapper {
+        display: block;
+        position: absolute;
+        width: 200px;
+        height: 45px;
+        top: 142px;
+        background-color: #fff;
+        padding: 0 10px;
+        button {
+            display: block;
+            position: absolute;
+            width: 180px;
+            height: 45px;
+        }
+    }
+        
+    
 }
