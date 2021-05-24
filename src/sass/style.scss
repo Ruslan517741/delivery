@@ -1,4 +1,6 @@
 @import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'libs/slick';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
 
 @import 'base/variables';
@@ -55,7 +57,7 @@
     background-color: $main-color;
 }
 
-
+@import 'blocks/media';
 @import 'blocks/pageup';
 @import 'blocks/promo';
 @import 'blocks/buttons';
@@ -70,3 +72,4 @@
 @import 'blocks/question';
 @import 'blocks/map';
 @import 'blocks/footer';
+@import 'blocks/media';

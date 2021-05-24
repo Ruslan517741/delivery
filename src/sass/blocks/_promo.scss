@@ -88,9 +88,9 @@
     }
     &__divider {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
-        width: 810px;
+        width: 80%;
         margin: 45px auto 35px auto;
         &-line {
             width: 380px;
@@ -113,7 +113,6 @@
         &-item {
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
         }
         &-text {
