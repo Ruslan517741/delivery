@@ -5,14 +5,14 @@
     &__wrapper {
         margin-top: 30px;
         display: grid;
-        grid-template-columns: repeat(2, 530px);
+        grid-template-columns: repeat(auto-fit, minmax(280px, 530px));
         grid-template-rows: repeat(4, minmax(65, auto));
         column-gap: 60px;
         row-gap: 35px;
     }
     &__item {
         display: grid;
-        grid-template-columns: 60px 450px;
+        grid-template-columns: 60px minmax(240px, 450px);
         column-gap: 20px;
         &-text {
             font-size: 14px;
@@ -20,10 +20,6 @@
             color: #3a3a3a;
         }
         &-subtitle {
-/*             font-size: 16px;
-            line-height: 24px;
-            font-weight: 700;
-            color: $main-color; */
             padding-bottom: 3px;
         }
     }
