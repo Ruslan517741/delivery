@@ -74,14 +74,13 @@
             }
         }
         &-policy {
-            margin-right: 170px;
             font-size: 13px;
             line-height: 17px;
             font-weight: 300;
             text-decoration: underline;
             color: $main-color;
         }
-        &-advertising {
+        &-right {
             display: flex;
             align-items: center;
         }
