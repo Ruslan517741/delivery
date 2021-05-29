@@ -1,0 +1,30 @@
+.works {
+    min-height: 550px;
+    padding-bottom: 60px;
+    &__wrapper {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 360px));
+        justify-content: center;
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &-subtitle {
+            margin: 5px 0 5px 0;
+        }
+        &-img {
+            width: 360px;
+            height: 210px;
+        }
+        &-text {
+            text-align: center;
+            font-size: 14px;
+            font-weight: 300;
+            color: #3a3a3a;
+        }
+    }
+}

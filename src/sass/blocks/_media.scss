@@ -1,0 +1,393 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+        padding: 0 10px;
+    }
+    .promo {
+        min-height: 660px;
+        padding: 15px 0px 60px 0px;
+        &__menu-logo {
+            width: 80px;
+            height: 80px;
+        }
+        &__menu-items {
+            margin: 0;
+        }
+        &__menu-item {
+            font-size: 12px;
+            line-height: 12px;
+            padding: 0 7px;
+        }
+        &__menu-btn {
+            width: 150px;
+            height: 40px;
+        }
+        &__services {
+            grid-template-columns: repeat(4, 225px);
+            column-gap: 15px;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            grid-template-columns: repeat(2, minmax(300px, 440px));
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .promo {
+        min-height: 630px;
+        padding: 15px 10px 40px 10px;
+        &__menu-logo {
+            width: 80px;
+            height: 80px;
+        }
+        &__menu-items {
+            margin: 0;
+        }
+        &__menu-item {
+            font-size: 12px;
+            line-height: 12px;
+            padding: 0 7px;
+        }
+        &__menu-btn {
+            width: 150px;
+            height: 40px;
+        }
+        &__menu-contacts {
+            display: none;
+        }
+        &__services {
+            grid-template-columns: repeat(4, 168px);
+            column-gap: 15px;
+        }
+        &__descr {
+            font-size: 21px;
+        }
+    
+        &__title {
+
+            margin-top: 10px;
+            font-size: 53px;
+        }
+        &__subtitle {
+            font-size: 26px;
+        }
+        &__btn {
+            width: 200px;
+            height: 50px;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            grid-template-columns: repeat(2, minmax(300px, 340px));
+            column-gap: 35px;
+            row-gap: 20px;
+        }
+    }
+    .footer {
+        &__tagline {
+            margin-left: 15px;
+            max-width: 220px;
+            font-size: 14px;
+            line-height: 16px;
+        }
+        &__contacts {
+            &-question {
+                font-size: 14px;
+                line-height: 16px;
+            }
+            &-phone {
+                font-size: 15px;
+                line-height: 27px;
+            }
+        }
+        &__btn {
+            margin-left: 10px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .promo {
+        min-height: 610px;
+        &__menu-logo {
+            width: 50px;
+            height: 50px;
+        }
+        &__menu-item {
+            font-size: 10px;
+            line-height: 11px;
+            padding: 0 3px;
+        }
+        &__menu-btn {
+            width: 100px;
+            height: 35px;
+            font-size: 9px;
+        }
+        &__services {
+            grid-template-columns: repeat(2, 250px);
+            grid-template-rows: repeat(2, minmax(110px, auto));
+            justify-content: center;
+            row-gap: 30px;
+            img {
+                height: 45px;
+            }
+            &-text {
+                font-size: 15px;
+                line-height: 17px;
+            }
+        }
+        &__divider {
+            margin: 25px auto 25px auto;
+        }
+        &__descr {
+            font-size: 17px;
+            margin-top: 30px;
+        }
+        &__title {
+            margin-top: 5px;
+            font-size: 40px;
+        }
+        &__subtitle {
+            font-size: 20px;
+        }
+        &__btn {
+            width: 190px;
+            height: 45px;
+            margin-top: 25px;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            grid-template-columns: repeat(auto-fit, minmax(300px, 520px));
+            row-gap: 30px;
+        }
+    }
+    .works {
+        &__wrapper {
+            margin-top: 25px;
+        }
+    }
+    .consultation {
+        padding-bottom: 70px;
+        &__form {
+            flex-direction: column;
+            height: 300px;
+        }
+        &__btn-wrapper {
+            top: 275px;
+        }
+    }
+    .question {
+        form {
+            textarea {
+                width: 400px;
+                height: 130px;
+            }
+            input {
+                margin: 0 10px;
+                width: 360px;
+            }
+        }
+    }
+    .footer {
+        &__tagline {
+            margin-left: 5px;
+            max-width: 120px;
+            font-size: 14px;
+            line-height: 16px;
+        }
+        &__contacts {
+            &-question {
+                font-size: 14px;
+                line-height: 20px;
+            }
+            &-phone {
+                font-size: 14px;
+                line-height: 18px;
+            }
+        }
+        &__btn {
+            margin-left: 10px;
+            min-width: 150px;
+            height: 40px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+    .promo {
+        min-height: 610px;
+        &__menu-logo {
+            width: 70px;
+            height: 70px;
+        }
+        &__menu-items {
+            display: none;
+        }
+        &__menu-item {
+            font-size: 10px;
+            line-height: 11px;
+            padding: 0 3px;
+        }
+        &__menu-contacts {
+            display: block;
+            padding-left: calc(100% - 287px);
+            padding-right: 5px;
+        }
+        &__menu-question {
+            font-size: 11px;
+            line-height: 14px;
+        }
+        &__menu-phone {
+            font-size: 13px;
+            line-height: 16px;
+        }
+        &__services {
+            grid-template-columns: repeat(1, 250px);
+            grid-template-rows: repeat(4, minmax(80px, auto));
+            row-gap: 30px;
+            img {
+                height: 40px;
+            }
+            &-text {
+                font-size: 17px;
+                line-height: 19px;
+            }
+        }
+        &__descr {
+            font-size: 11px;
+            margin-top: 30px;
+        }
+        &__title {
+            margin-top: 10px;
+            font-size: 38px;
+        }
+        &__subtitle {
+            font-size: 13px;
+        }
+        &__btn {
+            margin-top: 50px;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            grid-template-columns: repeat(auto-fit, minmax(300px, 520px));
+            row-gap: 30px;
+        }
+        &__item {
+            column-gap: 10px;
+        }
+    }
+    .title {
+        font-size: 22px;
+    }
+    .works {
+        &__item {
+            &-img {
+                        width: 300px;
+                        height: 180px;
+                    }
+            }
+    }
+    .agent {
+        padding: 40px 0 55px 0;
+        &__descr {
+        margin-top: 5px;
+        font-size: 18px;
+        }
+    }
+    .managers {
+        padding: 40px 0 55px 0;
+        &__descr {
+        margin-top: 5px;
+        font-size: 18px;
+        }
+    }
+    .question {
+        form {
+            textarea {
+                width: 360px;
+                height: 130px;
+            }
+            input {
+                margin: 0 10px;
+                width: 360px;
+            }
+        }
+    }
+    .map {
+        &__info {
+            width: 215px;
+            min-height: 135px;
+            padding: 25px 20px 25px 25px;
+        }
+    }
+    .footer {
+        min-height: 150px;
+        padding: 20px 0 20px 0;
+        &__wrapper {
+            &-right {
+                flex-direction: column;
+                margin-left: 15px;
+            }
+        }
+        &__icon {
+            margin-left: 0;
+            width: 60px;
+            height: 59px;
+        }
+        &__tagline {
+            margin-left: 3px;
+            max-width: 220px;
+            font-size: 10px;
+            line-height: 14px;
+        }
+        &__contacts {
+            &-question {
+                font-size: 11px;
+                line-height: 12px;
+            }
+            &-phone {
+                font-size: 11px;
+                line-height: 15px;
+            }
+        }
+        &__btn {
+            margin-left: 1px;
+            min-width: 120px;
+            height: 30px;
+            font-size: 10px;
+        }
+        &__line {
+            margin: 15px 0 10px 0;
+        }
+        &__links {
+            padding: 0;
+            &-website {
+            font-size: 11px;
+            line-height: 17px;
+            }
+            &-policy {
+                display: none;
+            }
+            &-text {
+                font-size: 11px;
+            }
+            &-icon {
+                margin-left: 5px;
+            }
+        }
+    }
+    
+}
